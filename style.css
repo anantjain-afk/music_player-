@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Mono:ital,wght@0,200..800;1,200..800&family=Syne:wght@400..800&display=swap');
+body {
+    background-color: antiquewhite;
+
+}
+* {
+    margin: 0;
+    padding: 0;
+
+}
+nav{
+    font-family: "Atkinson Hyperlegible Mono", serif;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 10vh;
+    background-color: black;
+    color: white;
+}
+nav ul li{
+    padding: 0px 12px ;
+}
+.logo img{
+    width:45px
+}
+.logo{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
