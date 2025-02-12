@@ -67,6 +67,7 @@ nav ul li{
 }
 .bottom input{
     width: 70vw;
+    cursor: pointer;
     
 }
 .songItemcontainer{
@@ -111,5 +112,5 @@ nav ul li{
 .bottom .songInfo img{
     width: 50px;
     opacity: 0;
-    transition: opacity 1s  ;
+    transition: opacity 0.4s  ;
 }
