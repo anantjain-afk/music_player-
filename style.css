@@ -66,8 +66,50 @@ nav ul li{
     cursor: pointer;
 }
 .bottom input{
-    width: 40vh;
+    width: 70vw;
     
 }
+.songItemcontainer{
+    margin-top: 50px;
+}
+.songItem{
+    margin: 10px 0;
+    display: flex;
+    width: 90%;
+    height: 50px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    border-radius:17px;
+    color: black;
 
 
+
+}
+.songItem img{
+    width: 50px;
+    margin: 4 12px;
+    padding: 10px;
+    border-radius: 34px;
+}
+.songListplay{
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+}
+
+.timestamp{
+    margin: 0 23px;
+}
+.songListplay i{
+    cursor: pointer;
+}
+.songInfo{
+    position: absolute;
+    left: 15vw;
+}
+.bottom .songInfo img{
+    width: 50px;
+    opacity: 0;
+    transition: opacity 1s  ;
+}
