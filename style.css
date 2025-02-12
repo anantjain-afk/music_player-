@@ -15,7 +15,7 @@ nav ul{
     display: flex;
     align-items: center;
     list-style-type: none;
-    height: 10vh;
+    height: 8vh;
     background-color: black;
     color: white;
 }
@@ -31,3 +31,43 @@ nav ul li{
     font-weight: bolder;
     font-size: 1.2rem;
 }
+.container{
+    min-height: 70vh;
+    background-color: rgb(29, 27, 27);
+    color: white;
+    font-family: "Atkinson Hyperlegible Mono", serif;
+    display: flex;
+    margin: 23px auto; 
+    /* here we used auto to make the container in middle of horizonatla automatically .  */
+    width: 70%;
+    border-radius: 12px;
+    padding: 23px;
+    background-image: url("bg.jpg");
+    background-size: contain;
+}
+
+.bottom{
+    position: sticky;
+    background-color: black;
+    color: white;
+    height: 105px;
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.icons{
+    margin-top: 12px;
+}
+.icons i{
+    margin: 5px;
+    font-size: 40px;
+    cursor: pointer;
+}
+.bottom input{
+    width: 40vh;
+    
+}
+
+
