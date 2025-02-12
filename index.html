@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -20,79 +21,81 @@
             <h1>Best of NCS</h1>
             <div class="songItemcontainer">
                 <div class="songItem">
-                    <img src="covers/1.jpg" alt="1" >
-                    <span>Legion It's Always Blue </span>
+                    <img src="covers/1.jpg" alt="1">
+                    <span class="songName">Legion It's Always Blue </span>
                     <div class="songListplay">
                         <div class="timestamp">05:30</div>
-                        <i class="fa-regular fa-circle-play"></i>
+                        <i class="fa-regular songItemPlay fa-circle-play" id="1" ></i>
                     </div>
                 </div>
                 <div class="songItem">
-                    <img src="covers/2.jpg" alt="2" >
-                    <span>Legion It's Always Blue </span>
+                    <img src="covers/2.jpg" alt="2">
+                    <span class="songName">Legion It's Always Blue </span>
                     <div class="songListplay">
-                        <div class="timestamp">05:30</div>
-                        <i class="fa-regular fa-circle-play"></i>
+                        <div class="timestamp">05:30</div>  
+                        <i class="fa-regular songItemPlay fa-circle-play" id="2" ></i>
                     </div>
                 </div>
                 <div class="songItem">
-                    <img src="covers/3.jpg" alt="3" >
-                    <span>Legion It's Always Blue </span>
+                    <img src="covers/3.jpg" alt="3">
+                    <span class="songName">Legion It's Always Blue </span>
                     <div class="songListplay">
                         <div class="timestamp">05:30</div>
-                        <i class="fa-regular fa-circle-play"></i>
+                        <i class="fa-regular songItemPlay fa-circle-play" id="3" ></i>
                     </div>
                 </div>
                 <div class="songItem">
-                    <img src="covers/4.jpg" alt="4" >
-                    <span>Legion It's Always Blue </span>
+                    <img src="covers/4.jpg" alt="4">
+                    <span class="songName">Legion It's Always Blue </span>
                     <div class="songListplay">
                         <div class="timestamp">05:30</div>
-                        <i class="fa-regular fa-circle-play"></i>
+                        <i class="fa-regular songItemPlay fa-circle-play" id="4" ></i>
                     </div>
                 </div>
                 <div class="songItem">
-                    <img src="covers/5.jpg" alt="5" >
-                    <span>Legion It's Always Blue </span>
+                    <img src="covers/5.jpg" alt="5">
+                    <span class="songName">Legion It's Always Blue </span>
                     <div class="songListplay">
                         <div class="timestamp">05:30</div>
-                        <i class="fa-regular fa-circle-play"></i>
+                        <i class="fa-regular songItemPlay fa-circle-play" id="5" ></i>
                     </div>
                 </div>
                 <div class="songItem">
-                    <img src="covers/6.jpg" alt="6" >
-                    <span>Legion It's Always Blue </span>
+                    <img src="covers/6.jpg" alt="6">
+                    <span class="songName">Legion It's Always Blue </span>
                     <div class="songListplay">
                         <div class="timestamp">05:30</div>
-                        <i class="fa-regular fa-circle-play"></i>
+                        <i class="fa-regular songItemPlay fa-circle-play" id="6" ></i>
                     </div>
                 </div>
                 <div class="songItem">
-                    <img src="covers/7.jpg" alt="" >
-                    <span>Legion It's Always Blue </span>
+                    <img src="covers/7.jpg" alt="">
+                    <span class="songName">Legion It's Always Blue </span>
                     <div class="songListplay">
                         <div class="timestamp">05:30</div>
-                        <i class="fa-regular fa-circle-play"></i>
+                        <i class="fa-regular songItemPlay fa-circle-play" id="7" ></i>
                     </div>
                 </div>
             </div>
         </div>
-        
+
         <div class="songbanner"></div>
-        
+
     </div>
     <div class="bottom">
-        <input type="range"  name="range" id="myProgressBar" min="0" value = "0" max="100">
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
         <div class="icons">
-            <i class="fa-solid fa-backward"></i>
+            <i class="fa-solid fa-backward" id="previous"></i>
             <i class="fa-regular fa-circle-play" id="masterPlay"></i>
-            <i class="fa-solid fa-forward"></i>
+            <i class="fa-solid fa-forward" id="next"></i>
         </div>
-        <div class="songInfo">Let me love you
+        <div class="songInfo">
             <img src="playing.gif" alt="" id="gif">
+            <div id="masterSongName">None copy righted songs 1</div>
         </div>
     </div>
     <script src="https://kit.fontawesome.com/3bbb88e2dc.js" crossorigin="anonymous"></script>
     <script src="script.js"></script>
 </body>
+
 </html>
