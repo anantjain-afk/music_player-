@@ -10,13 +10,13 @@ let masterSongName = document.getElementById('masterSongName');
 
 
 let songs = [
-    { songName: "None copy righted songs 1", filePath: "songs/1.mp3", coverPath: "covers/1.jpg" },
-    { songName: "None copy righted songs 2", filePath: "songs/2.mp3", coverPath: "covers/2.jpg" },
-    { songName: "None copy righted songs 3", filePath: "songs/3.mp3", coverPath: "covers/3.jpg" },
-    { songName: "None copy righted songs 4", filePath: "songs/4.mp3", coverPath: "covers/4.jpg" },
-    { songName: "None copy righted songs 5", filePath: "songs/5.mp3", coverPath: "covers/5.jpg" },
-    { songName: "None copy righted songs 6", filePath: "songs/6.mp3", coverPath: "covers/6.jpg" },
-    { songName: "None copy righted songs 7", filePath: "songs/7.mp3", coverPath: "covers/7.jpg" },
+    { songName: "Non copyright song 1", filePath: "songs/1.mp3", coverPath: "covers/1.jpg" },
+    { songName: "Non copyright song 2", filePath: "songs/2.mp3", coverPath: "covers/2.jpg" },
+    { songName: "Non copyright song 3", filePath: "songs/3.mp3", coverPath: "covers/3.jpg" },
+    { songName: "Non copyright song 4", filePath: "songs/4.mp3", coverPath: "covers/4.jpg" },
+    { songName: "Non copyright song 5", filePath: "songs/5.mp3", coverPath: "covers/5.jpg" },
+    { songName: "Non copyright song 6", filePath: "songs/6.mp3", coverPath: "covers/6.jpg" },
+    { songName: "Non copyright song 7", filePath: "songs/7.mp3", coverPath: "covers/7.jpg" },
 ]
 
 
